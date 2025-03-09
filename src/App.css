@@ -1,0 +1,308 @@
+body {
+  /* background-color: rgb(255, 255, 255) !important; */
+  background-color: #f4e8d0 !important;
+}
+#root {
+  overflow: hidden;
+}
+.verdana {
+  font-family: "Verdana", sans-serif;
+}
+
+.footer-style {
+  background-color: #f0edec;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  position: static;
+}
+.status-circle-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  height: 10px;
+  min-width: 10px;
+  border-radius: 100%;
+}
+.number-cart-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -8px;
+  right: -7px;
+  height: 15px;
+  min-width: 15px;
+  color: white;
+  background: #d1491d;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar-color {
+  background-color: #f0edec;
+}
+.navbar-link {
+  color: #3e2723;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #6d4c41;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.product-description {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.background-image {
+  background-image: url("/fodnocarrito.jpg");
+  margin-top: 58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+}
+h2,
+h3 {
+  color: #3e2723;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h4,
+h5,
+h6 {
+  color: #6d4c41;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+a {
+  color: #d1491d;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+a:hover {
+  color: #ef8354;
+}
+p,
+span,
+li {
+  color: #5a3d31;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+button {
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-family: "Verdana", sans-serif;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #d65a31;
+}
+
+/* AboutUs */
+
+.icon-color {
+  color: #e76f51;
+}
+
+.discount-bg-color {
+  background-color: rgb(255, 250, 235);
+}
+
+.card-bg-color {
+  background-color: #fcf7f7;
+}
+
+.card-bg-color-hero {
+  background-color: #fcf7f7cc;
+}
+
+.curva-light {
+  position: relative;
+}
+
+.curva-light::after {
+  content: "";
+  background-image: url(/public/curveLight.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.curva-dark {
+  position: relative;
+}
+
+.curva-dark::after {
+  content: "";
+  background-image: url(/public/curveDark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.section-height {
+  min-height: 700px;
+}
+
+.responsive-action {
+  position: static;
+}
+.icon-cart {
+  left: 17px;
+}
+.dropdown-item:hover {
+  color: #d65a31;
+  font-size: 1.05rem;
+}
+.dropdown-icon {
+  border-radius: 3px;
+}
+@media (max-width: 991px) {
+  .responsive-actions {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    margin-right: 0 !important;
+    z-index: 1050;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c69b7d;
+    padding: 10px;
+    border: 1px solid white;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    gap: 3px;
+    background-color: #f0edec;
+  }
+  .icon-cart {
+    left: 0;
+  }
+  .dropdown-icon {
+    top: -25px;
+    right: 40px;
+  }
+}
+/* Not Found */
+
+.notfound-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.notfound-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../public/imgsignup.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.notfound-content {
+  position: relative;
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #fff;
+  max-width: 800px;
+  width: 100%;
+}
+
+.notfound-text {
+  text-shadow: 2px 2px 5px rgba(51, 51, 51, 0.7);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #f4e4c6;
+}
+
+.notfound-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background-color: #e76f51;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(51, 51, 51, 0.7);
+}
+
+.notfound-link:hover {
+  background-color: #f4e4c6;
+}
+
+/*Formularios*/
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid #afa6a0;
+  outline: 0;
+}
+/* sobre este proyecto*/
+.profile-image-container {
+  width: 200px; /* Establece el ancho fijo */
+  height: 200px; /* Establece la altura fija */
+  overflow: hidden; /* Para asegurar que la imagen no se desborde */
+  word-wrap: break-word;
+}
+
+.profile-image-container img {
+  width: 100%; /* La imagen cubrirá el 100% del contenedor */
+  height: 100%; /* La imagen cubrirá el 100% del contenedor */
+  object-fit: cover; /* Hace que la imagen cubra el contenedor sin distorsionarse */
+  word-wrap: break-word;
+}
+
+.search-input:focus {
+  border: none;
+  box-shadow: none;
+  outline: 0;
+}
