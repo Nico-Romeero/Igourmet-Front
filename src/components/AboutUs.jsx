@@ -473,7 +473,7 @@ function AboutUs() {
                   <h5 className="text-center">Nicolás Romero</h5>
                   <p className="text-center">Full Stack Web Developer Jr.</p>
                   <div className="d-flex justify-content-center">
-                    <Link to="https://github.com/NicoRomero92">
+                    <Link to="https://github.com/Nico-Romeero">
                       <i className="bi bi-github me-2"></i>
                     </Link>
                     <Link to="https://www.linkedin.com/in/nicolas-romero-garcía-1565a858/">
