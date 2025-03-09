@@ -1,0 +1,67 @@
+.data-card {
+  background: rgba(0, 0, 0, 0.350);
+  border-radius: 16px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+.data-card-input{
+  background: rgba(0, 0, 0, 0.002);
+  border-radius: 16px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(7px);
+}
+.data-card-input:focus {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(7px);
+  color: white;
+}
+.data-card-input::placeholder {
+  color: white;
+}
+.not-action-color {
+  background-color: #d48c55;
+}
+.not-action-color:hover {
+  background-color: #b36f3b;
+}
+.total-price {
+  color: #3e2723;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.profile-bg {
+  background-image: url("/fondoprofilelight.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+.animation-center {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* Ajusta el ancho según sea necesario */
+  max-width: 300px; /* Tamaño máximo deseado */
+  height: auto; /* Mantiene la relación de aspecto */
+}
+.orders-title {
+  font-size: 3rem; /* Tamaño ajustable */
+  color: #fcf7f7; /* Contrasta con el fondo */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Sombra para mejorar la legibilidad */
+  display: inline-block; /* Ajusta el tamaño al contenido */
+}
+.text-color{
+  color: #fcf7f7;
+}
+.text-color-units {
+  color: white;
+}
+
+.line-border {
+  border-bottom: 1px solid #fcfcfc46 ;
+}
+.empty-order {
+  min-height: 68vh;
+}

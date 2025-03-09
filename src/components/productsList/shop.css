@@ -1,0 +1,38 @@
+.banner-container img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Select */
+.select-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.select-container select {
+  padding-right: 2.5rem; 
+  border-radius: 10px; 
+  background-color: #f9f9f9;
+  color: #3e2723;
+  transition: all 0.3s ease;
+}
+
+.select-container select:hover,
+.select-container select:focus {
+  box-shadow: 0 0 8px rgb(177, 176, 176);
+}
+
+.select-container::after {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  color: #777;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+
